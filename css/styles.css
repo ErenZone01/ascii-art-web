@@ -1,0 +1,113 @@
+.css {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 659%;
+    width: 100%;
+    font-weight: bolder;
+    text-shadow: 8px 10px 0 black;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 200%;
+    width: 100%;
+}
+
+a {
+    color: white;
+    width: 100%;
+    font-weight: bolder;
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(to top, #9b9696, #000000);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    accent-color: black;
+}
+
+#result1 {
+    margin-top: 20px;
+    width: 70%;
+    outline: none;
+    text-align: center;
+    border-radius: 70px;
+}
+
+.radio {
+    background-image: linear-gradient(to bottom left, #BDD4E7, #ffffff);
+    color: white;
+    width: 1%;
+    font-weight: bolder;
+    padding: 5px;
+    background-color: black;
+}
+
+.boutton:hover,
+#standard:hover,
+#shadow:hover,
+#thinkertoy:hover {
+    color: black;
+    background-image: linear-gradient(to bottom left, #ffffff, #000000);
+    color: white;
+    border-color: #ffffff;
+}
+
+#result2 {
+    margin-top: 50px;
+    width: 90%;
+    outline: none;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.radio {
+    margin-top: 50px;
+}
+
+#standard {
+    background-image: linear-gradient(to bottom left, #494444, #ffffff);
+    color: rgb(0, 0, 0);
+    border-radius: 70px;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+#shadow {
+    background-image: linear-gradient(to bottom left, #494444, #ffffff);
+    color: rgb(0, 0, 0);
+    border-radius: 70px;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+#thinkertoy {
+    background-image: linear-gradient(to bottom left, #494444, #ffffff);
+    color: rgb(0, 0, 0);
+    border-radius: 70px;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.boutton {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 70px;
+    background-image: linear-gradient(to bottom left, #494444, #ffffff);
+    color: black
+}

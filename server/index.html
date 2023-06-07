@@ -1,0 +1,28 @@
+<!Doctype HTML>
+<html>
+
+<head>
+    <title>ASCII-ART-WEB</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <form action="/ascii-art" method="POST" class="css">
+        <h1>ASCII-ART-WEB</h1>
+        <textarea name="texte" id="result1" cols="30" rows="6" placeholder="Write your text" required></textarea>
+        <br>
+        <input type="radio" name="radio" class="radio" value="standard" id="Standard" checked>
+        <label for="Standard" id="standard">Standard</label>
+        <input type="radio" name="radio" class="radio" value="shadow" id="Shadow">
+        <label for="Shadow" id="shadow">Shadow</label>
+        <input type="radio" name="radio" class="radio" value="thinkertoy" id="Thinkertoy">
+        <label for="Thinkertoy" id="thinkertoy">Thinkertoy</label>
+        <br>
+        <br>
+        <input type="submit" class="boutton" value="Run">
+        <br>
+        <textarea name="result" id="result2" wrap="off" cols="30" rows="12" placeholder="ASCII-ART-WEB" readonly >{{ printf "%s" .Response }} </textarea>
+    </form>
+</body>
+
+</html>
